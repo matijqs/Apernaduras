@@ -171,3 +171,36 @@ h1 {
     object-fit: contain; /* Mantiene la proporción de la imagen */
 }
 
+/* Resto de tu CSS... */
+
+@media (max-width: 767px) {
+    .search-container {
+        max-width: 100% !important;
+        padding: 0 15px;
+    }
+    
+    #searchInput {
+        margin: 0 auto;
+        border-radius: 8px;
+        width: calc(100% - 30px); /* Ancho exacto considerando padding */
+    }
+    
+    /* Mantén los otros ajustes que tenías para móvil */
+    .logo-container {
+        height: 150px;
+    }
+    
+    .logo {
+        height: 330px;
+    }
+    
+    .vehicle-card {
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .comment-box {
+        padding: 12px;
+        margin-top: 12px;
+    }
+}
