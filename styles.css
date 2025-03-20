@@ -171,25 +171,3 @@ h1 {
     object-fit: contain; /* Mantiene la proporción de la imagen */
 }
 
-
-/* Mobile First */
-.container {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-    padding: 15px;
-    border-radius: 0;
-    box-shadow: none;
-}
-
-/* Desktop */
-@media (min-width: 768px) {
-    .container {
-        max-width: 800px;
-        margin: 20px auto;
-        padding: 30px;
-        border-radius: 8px;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-    }
-}
-
